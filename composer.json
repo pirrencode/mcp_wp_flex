@@ -1,0 +1,16 @@
+{
+    "name": "openai/mcp-wp-flex",
+    "description": "WordPress integration for MCP server using ReactPHP",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "require": {
+        "php": ">=7.4",
+        "react/http": "^1.8",
+        "react/socket": "^1.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "MCPWPFlex\\": "mcp-wp-flex/"
+        }
+    }
+}
