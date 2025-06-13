@@ -12,9 +12,10 @@ composer install
 
 2. Copy the `mcp-wp-flex` directory into your WordPress `plugins` folder.
 
-3. Copy the `wp-cli-installer` directory into your WordPress `plugins` folder.
+5. In the WordPress admin go to **Tools → WP-CLI Installer** and click **Install WP-CLI** to download the `wp-cli.phar` file.
+The **WP-CLI Installer** plugin downloads the `wp-cli.phar` file into its own directory. It provides a page under **Tools → WP-CLI Installer** with a button to install or reinstall WP-CLI. Once installed, you can run WP-CLI using:
 
-4. Activate **MCP WP Flex** and **WP-CLI Installer** from the WordPress admin.
+If WP-CLI is already installed globally, this plugin does nothing automatically on activation, but you can still use the install page to fetch the bundled copy.
 
 ## Running the ReactPHP Server
 
